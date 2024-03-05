@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : BASKAR  J
+Roll no : 212223040025
+Date of experiment : 05.03.2024
 
 
 
@@ -79,20 +79,68 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
+```
+org 100h
+mov ax,3333h;
+mov bx,5555h;
+add ax,bx;
+mov [31b1h],ax;
+ret
 
+```
 
 ## Output  
+
+![Screenshot (20)](https://github.com/baskarsaraswathy/EXPERIMENT--01-ALP-FOR-8086/assets/144871005/3242dda9-2afd-4c7b-8b71-80e9d6f989ef)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+org 100h
+mov ax,5555h;
+mov bx,1111h;
+sub ax,bx;
+mov [33b1h],ax;
+ret
+
+```
 ## Output  
+![Screenshot (22)](https://github.com/baskarsaraswathy/EXPERIMENT--01-ALP-FOR-8086/assets/144871005/56b472d4-ef4b-42d3-aadc-a9a7af72c885)
+
 ## Multiplication alp 
+```
+org 100h
+mov AL,0C5H;
+
+mov BL,0B7H;
+
+mul BL;
+
+mov [1332H],AX;
+
+ret
+
+```
  ## Output  
+![Screenshot (19)](https://github.com/baskarsaraswathy/EXPERIMENT--01-ALP-FOR-8086/assets/144871005/a727cf1d-d3e6-4fd1-8604-375f12d50a68)
 
 
 ## Division alp 
 
+```
+name "Division"
+org 100h
+MOV AL,09H;
+MOV BL,03H;
+DIV BL;
+MOV CL,AL;
+MOV AL,00H;
+HLT;
+
+```
 ## Output  
+
+![Screenshot (21)](https://github.com/baskarsaraswathy/EXPERIMENT--01-ALP-FOR-8086/assets/144871005/d2d09350-24bd-46af-b82f-f0c1eae53eb4)
 
 
 ## Result :
