@@ -1,11 +1,6 @@
+#### Name : BASKAR  J
+#### Roll no : 212223040025
 # EXPERIMENT--01-ALP-FOR-8086
-Name : BASKAR  J
-Roll no : 212223040025
-Date of experiment : 05.03.2024
-
-
-
-
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -143,8 +138,35 @@ HLT;
 ![Screenshot (21)](https://github.com/baskarsaraswathy/EXPERIMENT--01-ALP-FOR-8086/assets/144871005/d2d09350-24bd-46af-b82f-f0c1eae53eb4)
 
 
+## PROGRAM FOR LOGICAL OPERATIONS:
+```
+org 100H
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX;
+MOV [SI+2],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+XOR AX,BX;
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+ret
+
+```
+## OUTPUT:
+
+![image](https://github.com/baskarsaraswathy/EXPERIMENT--01-ALP-FOR-8086/assets/144871005/3e4f571d-c4d1-449d-bcbd-a039edc290ff)
+
+
 ## Result :
- 
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations. 
 
 
 
