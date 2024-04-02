@@ -1,5 +1,5 @@
 #### Name : BASKAR  J
-#### Roll no : 212223040025
+#### Reg no : 212223040025
 # EXPERIMENT  01-ALP FOR 8086
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
